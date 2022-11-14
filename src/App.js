@@ -17,8 +17,7 @@ function App() {
       setError(null);
     }
 
-    if (event.target.value.trim().length === 0) {
-      message.classList.add('error');
+    if (event.target.value.trim().length == 0) {
       setErrorr('Email address is required');
     } else {
       setErrorr(null);
