@@ -78,10 +78,10 @@ function App() {
               value=""
               onClick={buttonClick}
             ></input>
-          </div>
-          <span id="email-error" class="error">
+            <span id="email-error" class="error">
             {error}
           </span>
+          </div>
           <div class="checkbox">
             <label>
               <input
